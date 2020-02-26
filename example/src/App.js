@@ -1,12 +1,50 @@
 import React, { Component } from 'react'
 
-import ExampleComponent from 'react-number-formator'
+import RNFormator from 'react-number-formator'
 
 export default class App extends Component {
   render () {
-    return (
+    return (<div>
       <div>
-        <ExampleComponent text='Modern React component module' />
+        Original Number : 100900000000000080
+        <br/>
+        Converted: {JSON.stringify(RNFormator(100900000000000080))}
+      </div>
+      <br/><hr/><br/>
+
+      <div>
+        Original Number : 100900000000000080
+        <br/>
+        Converted: {JSON.stringify(RNFormator(100900000000000080))}
+      </div>
+      <br/><hr/><br/>
+
+      <div>
+        Original Number : 100900000000000080
+        <br/>
+        Converted: {JSON.stringify(RNFormator(100900000000000080))}
+      </div>
+      <br/><hr/><br/>
+
+      <div>
+        Original Number : 100900000000000080
+        <br/>
+        Converted: {JSON.stringify(RNFormator(100900000000000080))}
+      </div>
+      <br/><hr/><br/>
+
+      <div>
+        Original Number : 100900000000000080
+        <br/>
+        Converted: {JSON.stringify(RNFormator(100900000000000080))}
+      </div>
+      <br/><hr/><br/>
+
+      <div>
+        Original Number : 100900000000000080
+        <br/>
+        Converted: {JSON.stringify(RNFormator(100900000000000080))}
+      </div>
       </div>
     )
   }
